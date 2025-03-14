@@ -61,6 +61,13 @@ header {
     gap: 24px;
     color: #FFFFFF;
     padding-left: 75px;
+    justify-content: start;
+}
+
+a{
+    color: inherit;
+    font-style:italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 header span {
