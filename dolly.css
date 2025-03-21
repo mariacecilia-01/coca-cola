@@ -10,12 +10,13 @@ a {
 }
 
 body {
-    width: 100vh;
+    width: 100vw;
     height: 100vh;
     display: grid;
     grid-template-rows: 100px 1fr 100px;
     background: linear-gradient(#3e9f39, #75d490 50%, #3e9f39, #75d490);
 }
+
 
 header {
     place-content: center start;
@@ -28,6 +29,11 @@ header {
     gap: 35px;
     grid-template-columns: 10px 90px 90px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer{
+    place-self: center center;
+    color: #ffffff;
 }
 
 
@@ -52,7 +58,13 @@ header {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+
 .content-image {
-    height: 80vh;
-    transform: translateX(45%);
+    height: 70vh;
+    width: auto;
+    place-self: center center;
+    display: grid;
+    top: 120px;
+    transform: translate(0%,5%);
 }
+
