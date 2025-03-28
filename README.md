@@ -10,4 +10,4 @@ O site foi desenvolvido utilizando boas práticas, como por exemplo tags semânt
 * Media Queries
 
 ## Autor
-[Fernando Leonid](<https://www.linkedin.com/in/fernandoleonid/>)
+Maria Cecilia
